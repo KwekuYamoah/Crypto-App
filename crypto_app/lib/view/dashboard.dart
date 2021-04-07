@@ -1,9 +1,9 @@
 import 'dart:collection';
 
-import 'package:ably_cryptocurrency/main.dart';
-import 'package:ably_cryptocurrency/service/ably_service.dart';
-import 'package:ably_cryptocurrency/view/chat.dart';
-import 'package:ably_cryptocurrency/view/twitter_feed.dart';
+import 'package:crypto_app/main.dart';
+import 'package:crypto_app/service/ably_service.dart';
+import 'package:crypto_app/view/chat.dart';
+import 'package:crypto_app/view/twitter_feed.dart';
 import 'package:ably_flutter_plugin/ably_flutter_plugin.dart' as ably;
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart' as intl;

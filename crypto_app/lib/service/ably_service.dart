@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:ably_crypotocurrency/config.dart';
+import 'package:crypto_app/config.dart';
 import 'package:ably_flutter_plugin/ably_flutter_plugin.dart' as ably;
 import 'package:flutter/foundation.dart';
 
@@ -86,7 +86,7 @@ class AblyService {
   static Future<AblyService> init() async {
     /// initialize client options for your Ably account using your private API key
     final ably.ClientOptions _clientOptions =
-        ably.ClientOptions.fromKey(AblyAPIKey);
+        ably.ClientOptions.fromKey(APIKey);
     
     /// initialize real-time object with the client options
     final _realtime = ably.Realtime(options: _clientOptions);
