@@ -3,6 +3,7 @@ import 'package:get_it/get_it.dart';
 
 import 'package:crypto_app/service/ably_service.dart';
 import 'package:crypto_app/view/dashboard.dart';
+import 'package:crypto_app/view/twitter_feed.dart';
 
 
 /// registering the service using get_it package
