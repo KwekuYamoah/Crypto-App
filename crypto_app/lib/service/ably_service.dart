@@ -85,8 +85,7 @@ class AblyService {
   /// creating AlbyService instance
   static Future<AblyService> init() async {
     /// initialize client options for your Ably account using your private API key
-    final ably.ClientOptions _clientOptions =
-        ably.ClientOptions.fromKey(APIKey);
+    final ably.ClientOptions _clientOptions = ably.ClientOptions.fromKey(APIKey);
     
     /// initialize real-time object with the client options
     final _realtime = ably.Realtime(options: _clientOptions);
