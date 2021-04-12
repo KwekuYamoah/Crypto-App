@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sma/shared/colors.dart';
-import 'package:sma/widgets/about/attribution/attributions.dart';
+import 'package:sma/widgets/about/attribution/attribution.dart';
 import 'package:sma/widgets/widgets/empty_screen.dart';
 
 class AboutSection extends StatelessWidget {
@@ -27,8 +27,8 @@ class AboutSection extends StatelessWidget {
         body: SafeArea(
           child: TabBarView(
             children: <Widget>[
-              Attributions(),
-              EmptyScreen(message: 'Settings section coming soon'),
+              Attribution(),
+              EmptyScreen(message: 'We didn\'t have time to build it.Coming in version 2.0'),
             ],
           ),
         )
