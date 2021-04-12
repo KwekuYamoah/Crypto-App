@@ -16,17 +16,17 @@ class SectorPerformanceError extends SectorPerformanceState {
 class SectorPerformanceLoading extends SectorPerformanceState {}
 
 class SectorPerformanceLoaded extends SectorPerformanceState {
-
   final SectorPerformanceModel sectorPerformance;
   final MarketMoversModelData marketActive;
   final MarketMoversModelData marketGainer;
   final MarketMoversModelData marketLoser;
+  final CryptoMoversModelData crypto;
 
   SectorPerformanceLoaded({
     @required this.sectorPerformance,
     @required this.marketActive,
     @required this.marketGainer,
     @required this.marketLoser,
+    @required this.crypto
   });
-
 }

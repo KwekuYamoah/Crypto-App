@@ -5,6 +5,7 @@ import 'package:meta/meta.dart';
 import 'package:sma/helpers/sentry_helper.dart';
 
 import 'package:sma/models/markets/market_active/market_active_model.dart';
+import 'package:sma/models/markets/crypto/crypto_active_model.dart';
 import 'package:sma/models/markets/sector_performance/sector_performance_model.dart';
 import 'package:sma/respository/market/market_client.dart';
 
@@ -33,7 +34,8 @@ class SectorPerformanceBloc extends Bloc<SectorPerformanceEvent, SectorPerforman
         sectorPerformance: await client.fetchSectorPerformance(),
         marketActive: await client.fetchMarketActive(),
         marketGainer: await client.fetchMarketGainers(),
-        marketLoser: await client.fetchMarketLosers()
+        marketLoser: await client.fetchMarketLosers(),
+        crypto: await client.fetchCrypto()
       );
       
     } catch (e, stack) {

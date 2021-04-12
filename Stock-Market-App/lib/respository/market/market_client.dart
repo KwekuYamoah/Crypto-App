@@ -5,6 +5,8 @@ import 'package:sma/helpers/http_helper.dart';
 import 'package:sma/models/markets/market_active/market_active_model.dart';
 import 'package:sma/models/markets/sector_performance/sector_performance_model.dart';
 
+import 'package:sma/models/markets/crypto/crypto_active_model.dart';
+
 class MarketClient extends FetchClient {
 
   /// Fetches sector performance and returns [SectorPerformanceModel].
@@ -43,6 +45,14 @@ class MarketClient extends FetchClient {
     final Response<dynamic> response = await super.financialModelRequest('/api/v3/stock/losers');
     return MarketMoversModelData(
       marketActiveModelData: MarketMoversModelData.toList(response.data['mostLoserStock'])
+    );
+  }
+
+  /// Fetches market most crypto and retuns [CryptoMoversModelData].
+  Future<CryptoMoversModelData> fetchCrypto() async {
+    final Response<dynamic> response = await super.financialModelRequest('api/v3/quotes/crypto');
+    return CryptoMoversModelData(
+      cryptoActiveModelData: CryptoMoversModelData.toList(response.data['crypto'])
     );
   }
 }
