@@ -1,9 +1,3 @@
-// TODO: You will need to get your own API keys in order to run this project.
-// TODO: Remove the 'package:sma/key.dart' package and replace the varibales' value with your own API keys.
-// The reason why the package in under is missing is because that's where I, (Joshua Garcia), store my API keys.
-// You do not need to create a new package key.dart because this is the one we will be using to store our keys. 
-
-
 /// Sentry DNS is used to track errors. It is beeing used at [SentryHelper].
 /// To get your DNS, go to: https://sentry.io/. 
 /// Create a project and follow these steps: https://forum.sentry.io/t/where-can-i-find-my-dsn/4877

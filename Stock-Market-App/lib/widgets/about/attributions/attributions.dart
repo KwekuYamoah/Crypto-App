@@ -28,15 +28,15 @@ class Attributions extends StatelessWidget {
     return BaseList(
       children: <Widget>[
         _buildContent(
-          title: 'Application Developed by Joshua García',
+          title: 'Application Developed by Y Stocks Team at Ashesi University',
           text: 'You can find this app\'s source code by tapping here.',
-          url: 'https://github.com/JoshuaR503/Stock-Market-App'
+          url: 'https://github.com/KwekuYamoah/Crypto-App/tree/main/Stock-Market-App'
         ),
         Divider(),
 
         _buildContent(
           title: 'Built with Flutter',
-          text: 'None of this would have been posible without Flutter, its amazing community and packages.',
+          text: 'None of this would have been posible without Flutter, its amazing community and packages. The numerous Youtube videos watched by the team to get this done.',
           url: 'https://flutter.dev/'
         ),
         Divider(),

@@ -34,7 +34,7 @@ void main() async {
         ),
       ],
       child: MaterialApp(
-        title: 'Stock Market App',
+        title: 'Y Stocks App',
         theme: ThemeData(brightness: Brightness.dark),
         home: StockMarketAppHome(),
         debugShowCheckedModeBanner: false,
