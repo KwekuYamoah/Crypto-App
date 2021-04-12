@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sma/shared/colors.dart';
-import 'package:sma/widgets/about/attributions/attributions.dart';
+import 'package:sma/widgets/about/attribution/attributions.dart';
 import 'package:sma/widgets/widgets/empty_screen.dart';
 
 class AboutSection extends StatelessWidget {

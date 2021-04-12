@@ -39,7 +39,7 @@ void main() async {
         home: StockMarketAppHome(),
         debugShowCheckedModeBanner: false,
         routes: {
-         /// '/about': (context) => AboutSection()
+          '/about': (context) => AboutSection()
         },
       )
     )
