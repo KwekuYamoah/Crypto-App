@@ -1,4 +1,4 @@
-# Stonks - Mobile
+# Y Stock App
 This is a simple app that helps users track their favorite stocks. This is not a real time watchlist as calls are made daily. We use a lot of free API's that limits our functionalities but all the same it is a great app and this team is proud to present it
 
 This is a high level of the main screen
