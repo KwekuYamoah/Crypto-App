@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:sma/bloc/sector_performance/sector_performance_bloc.dart';
 import 'package:sma/models/markets/market_active/market_active_model.dart';
+import 'package:sma/models/markets/crypto/crypto_active_model.dart';
 
 import 'package:sma/shared/colors.dart';
 import 'package:sma/shared/styles.dart';
@@ -59,6 +60,8 @@ class MarketsPerformance extends StatelessWidget {
                 child: Text('Top Losers', style: kSubtitleStyling),
               ),
               _buildMarketMovers(stonks: state.marketLoser, color: Colors.red),
+              
+              
             ]
           );
         }
@@ -87,4 +90,6 @@ class MarketsPerformance extends StatelessWidget {
       ),
     );
   }
+
+  
 }

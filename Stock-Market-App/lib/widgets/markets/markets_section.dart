@@ -47,7 +47,8 @@ class MarketsSection extends StatelessWidget {
               subtitle: 'Sector Performance',
               action: Container(),
             ),
-            MarketsPerformance()
+            MarketsPerformance(),
+            
           ]
         )
       ),
@@ -60,4 +61,3 @@ class MarketsSection extends StatelessWidget {
     );
   }
 }
-
