@@ -7,7 +7,8 @@ This is a high level of the main screen
 
 ![Demo Watchlist and More Info](images/2.png)
 
-
+## Video Demo
+You can watch a demo of the app at [Y Stock Demo](https://youtu.be/92vUjusSDXI)
 ## Test Results
 Here are images of app test in firebase test lab.
 
