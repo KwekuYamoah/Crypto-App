@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564848191782",
+    "project_id": "stock-market-app-c6485",
+    "storage_bucket": "stock-market-app-c6485.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564848191782:android:6170ca75dfab74e5ef39e7",
+        "android_client_info": {
+          "package_name": "com.stonks.watchlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564848191782-hckriao5n537t2h7b47dmtpea03tr66u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC4zBDdWxqTSh91O0H4v95dxn0Zk_EeiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564848191782-hckriao5n537t2h7b47dmtpea03tr66u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
