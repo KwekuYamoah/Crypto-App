@@ -31,7 +31,7 @@ Results of Performance Tests
 More tests results are in [images](https://github.com/KwekuYamoah/Crypto-App/blob/01b6305a9ed3c0acdb3cb54822c4ad83caf8cabc/Stock-Market-App/README.md#L30)
 
 ## Build
-Currently the app can only be built in release version  for android users. iOS build must be done on macOS. To download the apk file visit: [APK Release](https://github.com/KwekuYamoah/Crypto-App/blob/f050578a17feb6f50e4d7364e5ba7ead6aea470e/Stock-Market-App/build/app/outputs/flutter-apk/app-release.apk).
+Currently the app can only be built in release version  for android users. iOS build must be done on macOS. To download the apk file visit: [APK Release](https://github.com/KwekuYamoah/Crypto-App/blob/main/Stock-Market-App/app-release.apk).
 
 ## Functionalities
 - Users can see stocks.
